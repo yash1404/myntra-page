@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&family=Inter:wght@400;700&family=Metrophobic&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fermion Machine Round</title>
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav class="navigation">
+      <div class="logo-menu-section">
+        <img src="images/logo.png" alt="myntra logo" />
+        <div class="menu-items">
+          <ul class="menu-list">
+            <li class="list-name">
+              Men
+              <ul class="dropdown-menu">
+                <h1>Top Product</h1>
+                <li>T-shirts</li>
+                <li>Casuals-shirts</li>
+                <li>Formal-shirts</li>
+                <li>Sweat-shirts</li>
+                <li>Sweaters</li>
+              </ul>
+            </li>
+            <li class="list-name">
+              Women
+              <ul class="dropdown-menu">
+                <h1>Top Product</h1>
+                <li>T-shirts</li>
+                <li>Casuals-shirts</li>
+                <li>Formal-shirts</li>
+                <li>Sweat-shirts</li>
+                <li>Sweaters</li>
+              </ul>
+            </li>
+            <li class="list-name">
+              Kids
+              <ul class="dropdown-menu">
+                <h1>Top Product</h1>
+                <li>T-shirts</li>
+                <li>Casuals-shirts</li>
+                <li>Formal-shirts</li>
+                <li>Sweat-shirts</li>
+                <li>Sweaters</li>
+              </ul>
+            </li>
+            <li class="list-name">
+              Home & Living
+              <ul class="dropdown-menu">
+                <h1>Top Product</h1>
+                <li>T-shirts</li>
+                <li>Casuals-shirts</li>
+                <li>Formal-shirts</li>
+                <li>Sweat-shirts</li>
+                <li>Sweaters</li>
+              </ul>
+            </li>
+            <li class="list-name">
+              Beauty
+              <ul class="dropdown-menu">
+                <h1>Top Product</h1>
+                <li>T-shirts</li>
+                <li>Casuals-shirts</li>
+                <li>Formal-shirts</li>
+                <li>Sweat-shirts</li>
+                <li>Sweaters</li>
+              </ul>
+            </li>
+            <li class="list-name">
+              Studio
+              <ul class="dropdown-menu">
+                <h1>Top Product</h1>
+                <li>T-shirts</li>
+                <li>Casuals-shirts</li>
+                <li>Formal-shirts</li>
+                <li>Sweat-shirts</li>
+                <li>Sweaters</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- search bar and accounts info -->
+      <div class="search-account-section">
+        <div class="searchbar">
+          <i class="fa-solid fa-magnifying-glass fa-xs"></i>
+          <input type="text" placeholder="Search for products,brand and more" />
+        </div>
+        <div class="accounts-icons">
+          <div class="icons">
+            <i class="fa-solid fa-user"></i>
+            <p>Profile</p>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-heart"></i>
+            <p>WishList</p>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Bag</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- hamburger -->
+      <div class="toggle">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
+    </nav>
+
+    <!-- breadcum section -->
+    <div class="breadcum" id="breadcum">
+      <div class="breadcum-menu">
+        <span>Home /</span>
+        <span>Clothing /</span>
+        <span>Men T-Shirts </span>
+      </div>
+
+      <div class="breadcum-menu-items">
+        <span>Men T-Shirts</span>
+        <span>- 104787 items</span>
+      </div>
+    </div>
+
+    <!-- filters and product sections -->
+    <div class="main-container">
+      <!-- filter section -->
+      <div class="filter-section">
+        <div class="filter-headname">
+          <h4>FILTERS</h4>
+        </div>
+        <!-- categories section -->
+        <div class="filter-sub-sections">
+          <h4 class="filter-heading">CATEGORIES</h4>
+          <div class="input-section">
+            <input type="checkbox" id="checkbox" />
+            <span class="available-product">T-shirts</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" id="checkbox" />
+            <span class="available-product">Casual-shirts</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+        </div>
+        <!-- brand section -->
+        <div class="filter-sub-sections">
+          <h4 class="filter-heading">BRAND</h4>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Roadster</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">HRX</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">WRONG</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Tommy Hillfiger</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Buffalo</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Louis Phillipe</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Jack & Jones</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">HERE&NOW</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Frisker</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Tommy Hillfiger</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+        </div>
+        <!-- price section -->
+        <div class="filter-sub-sections">
+          <h4 class="filter-heading">PRICE</h4>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Rs.115 to Rs.9177</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Rs.9177 to Rs.18079</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Rs.18079 to Rs.27000</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" />
+            <span class="available-product">Rs.27000 to Rs.27000</span>
+            <span class="available-quantity">(1214)</span>
+          </div>
+        </div>
+      </div>
+      <!-- product-section -->
+      <div class="product-section">
+        <div class="add-selected-filter"></div>
+
+        <div class="product-listing-section">
+          <div class="card-section">
+            <img src="images/product1.jpg" alt="product1" />
+            <h4>Roadster</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1109</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product2.jpg" alt="product1" />
+            <h4>HRX by Hrithik Roshan</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.500</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product4.jpg" alt="product1" />
+            <h4>WRONG</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.700</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product5.jpg" alt="product1" />
+            <h4>Tommy Hillfiger</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1200</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product6.jpg" alt="product1" />
+            <h4>V-mart</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1200</span>
+          </div>
+          <div class="card-section">
+            <img src="images/product1.jpg" alt="product1" />
+            <h4>Roadster</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1109</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product2.jpg" alt="product1" />
+            <h4>HRX by Hrithik Roshan</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.500</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product4.jpg" alt="product1" />
+            <h4>WRONG</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.700</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product1.jpg" alt="product1" />
+            <h4>Roadster</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1109</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product2.jpg" alt="product1" />
+            <h4>HRX by Hrithik Roshan</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.500</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product4.jpg" alt="product1" />
+            <h4>WRONG</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.700</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product1.jpg" alt="product1" />
+            <h4>Roadster</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1109</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product2.jpg" alt="product1" />
+            <h4>HRX by Hrithik Roshan</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.500</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product4.jpg" alt="product1" />
+            <h4>WRONG</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.700</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product1.jpg" alt="product1" />
+            <h4>Roadster</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1109</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product2.jpg" alt="product1" />
+            <h4>HRX by Hrithik Roshan</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.500</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product4.jpg" alt="product1" />
+            <h4>WRONG</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.700</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product1.jpg" alt="product1" />
+            <h4>Roadster</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.1109</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product2.jpg" alt="product1" />
+            <h4>HRX by Hrithik Roshan</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.500</span>
+          </div>
+
+          <div class="card-section">
+            <img src="images/product4.jpg" alt="product1" />
+            <h4>WRONG</h4>
+            <span class="brand-quality">Pure Cotton T-Shirt</span>
+            <span class="brand-price">Rs.700</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- javascript link -->
+    <script src="script.js"></script>
+  </body>
+</html>
